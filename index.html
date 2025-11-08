@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peel &amp; Feed — Huskers vs. Hunger</title>
+    <meta name="description" content="Donate unused meal swipes or discreetly request a meal with Peel &amp; Feed — Huskers vs. Hunger.">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#D00000">
+    <link rel="icon" type="image/svg+xml" href="assets/banana.svg">
+    <link rel="apple-touch-icon" href="assets/banana.svg">
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.4.0/dist/maplibre-gl.css">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        husker: '#D00000',
+                        huskerDark: '#7A0000',
+                        banana: '#FFD84D',
+                        corn: '#FFF6DA'
+                    },
+                    fontFamily: {
+                        display: ['"Poppins"', 'system-ui', 'sans-serif'],
+                        body: ['"Inter"', 'system-ui', 'sans-serif']
+                    },
+                    boxShadow: {
+                        sticker: '0 18px 40px rgba(208,0,0,0.22)'
+                    }
+                }
+            }
+        };
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+</head>
+
+<body class="bg-corn-light text-slate-900 dark:text-slate-100 antialiased">
+    <noscript>
+      <strong>Peel &amp; Feed requires JavaScript to run. Please enable JavaScript to continue.</strong>
+    </noscript>
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/htm@3.1.1/dist/htm.min.js"></script>
+    <script defer src="https://unpkg.com/maplibre-gl@3.4.0/dist/maplibre-gl.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script type="module" defer src="dist/app.js"></script>
+</body>
+
+</html>

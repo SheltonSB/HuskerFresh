@@ -1,0 +1,65 @@
+{
+  "halls": [
+    {
+      "id": "nebraska-union",
+      "name": "Nebraska Union",
+      "lat": 40.817405,
+      "lng": -96.703468,
+      "status": "Open",
+      "open_hours": "Today · 7:00a — 9:00p",
+      "pickup_spot": "North doors near Starbucks",
+      "pickup_windows": [
+        "10:15a - 10:30a · Welcome Desk",
+        "12:00p - 12:15p · South Atrium",
+        "6:00p - 6:15p · Union Plaza"
+      ]
+    },
+    {
+      "id": "abel-sandoz",
+      "name": "Abel / Sandoz",
+      "lat": 40.818961,
+      "lng": -96.689323,
+      "status": "Open",
+      "open_hours": "Today · 6:30a — 10:00p",
+      "pickup_spot": "South lobby by the elevators",
+      "pickup_windows": [
+        "8:00a - 8:10a · Lobby",
+        "1:00p - 1:15p · Dining Host",
+        "7:30p - 7:45p · East Entrance"
+      ]
+    },
+    {
+      "id": "selleck",
+      "name": "Selleck",
+      "lat": 40.819672,
+      "lng": -96.701255,
+      "status": "Closed · Opens 4:00p",
+      "open_hours": "Reopens at 4:00p",
+      "pickup_spot": "Courtyard picnic tables",
+      "pickup_windows": [
+        "4:15p - 4:30p · Courtyard",
+        "5:45p - 6:00p · Front Desk"
+      ]
+    },
+    {
+      "id": "cather",
+      "name": "Cather Dining",
+      "lat": 40.820751,
+      "lng": -96.705162,
+      "status": "Open",
+      "open_hours": "Today · 7:00a — 10:00p",
+      "pickup_spot": "Academic plaza benches",
+      "pickup_windows": [
+        "9:30a - 9:45a · Plaza",
+        "12:30p - 12:45p · Lobby",
+        "8:00p - 8:15p · Commons"
+      ]
+    }
+  ],
+  "metrics": {
+    "fed_this_week": 142,
+    "donations_today": 41,
+    "avg_wait_seconds": 390
+  }
+}
+

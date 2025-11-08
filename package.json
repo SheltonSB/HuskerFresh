@@ -1,0 +1,17 @@
+{
+  "name": "peel-feed-huskers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.20",
+    "htm": "^3.1.1",
+    "maplibre-gl": "^3.4.0",
+    "typescript": "^5.3.3"
+  }
+}
+
